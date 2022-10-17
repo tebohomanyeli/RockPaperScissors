@@ -1,5 +1,5 @@
 from random import randint
-#Pictures of the rock paper and scissors
+#Pictures(SQR) of the rock paper and scissors
 rock = '''
     _______
 ---'   ____)
@@ -65,7 +65,7 @@ elif user_choice == 1:                  #Paper
         print("You Draw")
     elif comp_choice == 2:
         print("You Lose")
-        
+
 elif user_choice == 2:                  #Scissors
     if comp_choice == 0:
         print("You Lose")
